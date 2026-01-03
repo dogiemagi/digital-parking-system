@@ -1,0 +1,87 @@
+/* Admin Dashboard Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: url('https://images.pexels.com/photos/2280148/pexels-photo-2280148.jpeg') no-repeat center center fixed;
+  background-size: cover; /* Optional, to cover the entire container */
+
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1150px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: rgba(112, 108, 108, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  overflow-x: auto;
+  display: block;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #b9b6b6;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+th {
+  color: #fff;
+  background-color: #645f5f;
+  font-weight: bold;
+}
+
+td {
+  background-color: #f3e7e7;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #008000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005f00;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  h1 { font-size: 1.5rem; }
+  table { font-size: 0.9rem; }
+  th, td { padding: 8px; }
+}
+
+@media only screen and (max-width: 480px) {
+  .container { padding: 10px; }
+  h1 { font-size: 1.2rem; }
+  table { font-size: 0.8rem; }
+  th, td { padding: 6px; }
+  .btn { font-size: 0.9rem; padding: 8px 15px; }
+}

@@ -1,0 +1,36 @@
+parking-react-frontend/
+│
+├── public/
+│   └── index.html           ← Standard React entry point
+│
+├── src/
+│   ├── components/          ← Reusable UI components
+│   │    ├── Layout.jsx      ← Replaces base.html (common wrapper)
+│   │    └── Navbar.jsx      ← Optional (future)
+│   │
+│   ├── pages/               ← Each Flask HTML page → JSX page
+│   │    ├── Home.jsx        ← index.html
+│   │    ├── Book.jsx        ← book.html
+│   │    ├── BookCar.jsx     ← book_car.html
+│   │    ├── BookBike.jsx    ← book_bike.html
+│   │    ├── Checkout.jsx    ← checkout.html
+│   │    ├── PayPenalty.jsx  ← pay_penalty.html
+│   │    ├── Status.jsx      ← status.html
+│   │    ├── AdminLogin.jsx  ← admin_login.html
+│   │    ├── AdminDashboard.jsx ← admin.html
+│   │    ├── Success.jsx     ← success.html
+│   │    ├── SuccessCheckout.jsx ← success1.html
+│   │    └── NotFound.jsx    ← notfound.html
+│   │
+│   ├── services/            ← API calls to Flask backend
+│   │    └── api.js          ← Example: fetch("/api/book", ...)
+│   │
+│   ├── styles/              ← All CSS files
+│   │    └── style.css       ← Your current style.css
+│   │
+│   ├── App.js               ← React Router & main app
+│   └── index.js             ← Entry point, imports global CSS
+│
+├── package.json
+├── package-lock.json
+└── README.md
