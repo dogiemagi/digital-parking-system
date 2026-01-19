@@ -1,6 +1,8 @@
 
 # Parking Management System (Flask + SQLite)
 
+demonstration video:  https://www.youtube.com/watch?v=i-MYzH8BHOg
+
 A web-based **Parking Management System** built using **Flask** and **SQLite** that manages parking slots for Cars and Bikes. The system supports slot booking, fee calculation, late checkout penalties, and an Admin dashboard for monitoring parking activity.
 
 This project is designed to automate parking operations and reduce manual management.
